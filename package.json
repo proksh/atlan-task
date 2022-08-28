@@ -2,7 +2,6 @@
   "name": "atlan-task",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3000/fakeData",
   "dependencies": {
     "@headlessui/react": "^1.6.6",
     "@tanstack/react-query": "^4.2.3",

@@ -17,20 +17,24 @@ export const getHighlightedText = (text, highlight) => {
   ));
 };
 
+// Fake api funtion
 export const getApiData = async (url) => {
-  const response = await fetch(url);
+  const currentUrl = window.location.href;
+
+  const response = await fetch(`${currentUrl}fakeData${url}`);
   const result = await response.json();
   return result;
 };
 
+// Fake api funtion
 export const getFileData = async (url) => {
-  console.log(url);
-  const response = await fetch(`/fakeData${url}.csv`);
+  const currentUrl = window.location.href;
+
+  const response = await fetch(`${currentUrl}fakeData${url}.csv`);
   const reader = response.body.getReader();
   const result = await reader.read(); // raw array
   const decoder = new TextDecoder("utf-8");
   const csv = decoder.decode(result.value); // the csv text
   const rows = _.get(Papa.parse(csv, { header: true }), "data");
-  console.log({ rows });
   return rows;
 };
