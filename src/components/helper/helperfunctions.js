@@ -2,6 +2,10 @@ import _ from "lodash";
 import Papa from "papaparse";
 
 export const getHighlightedText = (text, highlight) => {
+  if (highlight === "") {
+    return text;
+  }
+
   const parts = text.split(new RegExp(`(${highlight})`, "gi"));
   return _.map(parts, (part, i) => (
     <span

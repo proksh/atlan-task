@@ -1,12 +1,12 @@
 [
-  { "id": 1, "name": "/categories" },
+  { "id": 10, "name": "/territories" },
+  { "id": 9, "name": "/suppliers" },
+  { "id": 8, "name": "/shippers" },
+  { "id": 6, "name": "/products" },
+  { "id": 5, "name": "/orders" },
+  { "id": 4, "name": "/order_details" },
   { "id": 2, "name": "/customers" },
   { "id": 3, "name": "/employee_territories" },
-  { "id": 4, "name": "/order_details" },
-  { "id": 5, "name": "/orders" },
-  { "id": 6, "name": "/products" },
   { "id": 7, "name": "/regions" },
-  { "id": 8, "name": "/shippers" },
-  { "id": 9, "name": "/suppliers" },
-  { "id": 10, "name": "/territories" }
+  { "id": 1, "name": "/categories" }
 ]

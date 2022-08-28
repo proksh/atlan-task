@@ -113,7 +113,9 @@ const QuerryResult = ({ fileData }) => {
       <DataTable
         filteredAndSearchedData={_.orderBy(
           filteredAndSearchedData,
-          selectedSort.by,
+          function (obj) {
+            return parseFloat(obj[selectedSort.by]) || obj[selectedSort.by];
+          },
           selectedSort.order.toLowerCase()
         )}
         searchText={searchText}

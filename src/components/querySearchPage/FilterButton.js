@@ -91,7 +91,7 @@ const FilterButton = ({
                         className="flex mt-8 items-center justify-center gap-8 h-32 w-full px-12 bg-gray-200 text-body font-medium text-medium rounded-md hover:bg-gray-300 hover:text-dark focus:shadow-focus-primary"
                       >
                         <RiDeleteBin6Line className="fill-medium" size="16px" />
-                        Delete
+                        Remove
                       </button>
                     )}
                   </form>
