@@ -1,0 +1,15 @@
+[
+  { "id": 1, "dbName": "territories" },
+  { "id": 2, "dbName": "suppliers" },
+  { "id": 3, "dbName": "shippers" },
+  { "id": 4, "dbName": "products" },
+  { "id": 5, "dbName": "orders" },
+  { "id": 6, "dbName": "order_details" },
+  { "id": 7, "dbName": "customers" },
+  {
+    "id": 8,
+    "dbName": "employee_territories"
+  },
+  { "id": 9, "dbName": "regions" },
+  { "id": 10, "dbName": "categories" }
+]

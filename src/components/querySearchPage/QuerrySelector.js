@@ -5,7 +5,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 
 const QuerrySelector = ({ selected, menuItems, onChange, disabled }) => {
   return (
-    <div className="relative z-10 max-w-240 mb-40">
+    <div className="relative z-10 max-w-320 mb-40">
       <Listbox value={selected} onChange={onChange} disabled={disabled}>
         {({ open }) => (
           <>
@@ -16,8 +16,13 @@ const QuerrySelector = ({ selected, menuItems, onChange, disabled }) => {
                   : "border-outline-light shadow-1 hover:bg-gray-100 hover:border-brand-200 focus:outline-none focus:border-brand-500 focus:shadow-focus-primary"
               } inline-flex w-full transition items-center justify-between rounded-full bg-white px-20 py-8 h-48 text-subheader font-semibold border`}
             >
-              {_.get(selected, "name")}
-              <RiArrowDownSLine className="fill-dark ml-12" size="20px" />
+              <span className="truncate">
+                SHOW DATABASE {_.get(selected, "dbName")}
+              </span>
+              <RiArrowDownSLine
+                className="fill-dark ml-12 min-w-20"
+                size="20px"
+              />
             </Listbox.Button>
             <Listbox.Options className="absolute left-0 mt-4 w-full origin-top-left p-8 rounded-md bg-white shadow-9 border border-outline-light focus:outline-none">
               {_.map(menuItems, (item) => (
@@ -34,7 +39,7 @@ const QuerrySelector = ({ selected, menuItems, onChange, disabled }) => {
                             }`
                       }`}
                     >
-                      {_.get(item, "name")}
+                      SHOW DATABASE {_.get(item, "dbName")}
                     </button>
                   )}
                 </Listbox.Option>

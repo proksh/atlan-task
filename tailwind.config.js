@@ -101,6 +101,7 @@ module.exports = {
       112: "7rem",
       144: "9rem",
       240: "15rem",
+      320: "20rem",
       560: "35rem",
       full: "100%",
     },

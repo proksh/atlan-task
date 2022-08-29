@@ -31,10 +31,10 @@ export const getApiData = async (url) => {
 };
 
 // Fake api funtion
-export const getFileData = async (url) => {
+export const getFileData = async (dbName) => {
   const currentUrl = window.location.href;
 
-  const response = await fetch(`${currentUrl}fakeData${url}.csv`);
+  const response = await fetch(`${currentUrl}fakeData/${dbName}.csv`);
   const reader = response.body.getReader();
   const result = await reader.read(); // raw array
   const decoder = new TextDecoder("utf-8");
