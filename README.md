@@ -6,15 +6,15 @@ This is Web based application capable of running SQL queries (CSV files) and dis
 
 This project is using [Create React App](https://github.com/facebook/create-react-app).
 
-## Plugins/Packages used
+# Plugins/Packages used
 
 In the project directory, I have used these packages
 
 1. Tailwind - Tailwind is used for generatting classes for the ui of the application
 
-2. Headlessui -Headless UI is used along with tailwind to create interactive components like dropdowns and popups
+2. Headlessui - Headless UI is used along with tailwind to create interactive components like dropdowns and popups
 
-3. React Icons -React Icons is used to pick up already available icons. I have only used Remix icons for this project
+3. React Icons - React Icons is used to pick up already available icons. I have only used Remix icons for this project
 
 4. Papaparse - Papa parse is being used to parse the CSV file to JSON so that we can easily work with javascript
 
@@ -29,7 +29,7 @@ In the project directory, I have used these packages
 
 # Page Speed
 
-Used [https://pagespeed.web.dev/].
+Used [https://pagespeed.web.dev/] for speed test.
 
 - Mobile
 
