@@ -10,23 +10,17 @@ This project is using [Create React App](https://github.com/facebook/create-reac
 
 In the project directory, I have used these packages
 
-1. Tailwind
-   Tailwind is used for generatting classes for the ui of the application
+1. Tailwind - Tailwind is used for generatting classes for the ui of the application
 
-2. Headlessui
-   Headless UI is used along with tailwind to create interactive components like dropdowns and popups
+2. Headlessui -Headless UI is used along with tailwind to create interactive components like dropdowns and popups
 
-3. React Icons
-   React Icons is used to pick up already available icons. I have only used Remix icons for this project
+3. React Icons -React Icons is used to pick up already available icons. I have only used Remix icons for this project
 
-4. Papaparse
-   Papa parse is being used to parse the CSV file to JSON so that we can easily work with javascript
+4. Papaparse - Papa parse is being used to parse the CSV file to JSON so that we can easily work with javascript
 
-5. Lodash
-   Lodash is being used to write clear shorthand functions, just to keep the code clean
+5. Lodash - Lodash is being used to write clear shorthand functions, just to keep the code clean
 
-6. React Querry
-   React Querry is being used to manage caching and fetching of querries efficiently
+6. React Querry - React Querry is being used to manage caching and fetching of querries efficiently
 
 # For performance
 
@@ -39,22 +33,22 @@ Used [https://pagespeed.web.dev/].
 
 - Mobile
 
-Performance: 98
-First Contentful Paint: 1.6 s
-Time to Interactive: 3.0 s
-Speed Index: 1.6 s
-Total Blocking Time: 80 ms
-Largest Contentful Paint: 2.1 s
+Performance: 98,
+First Contentful Paint: 1.6 s,
+Time to Interactive: 3.0 s,
+Speed Index: 1.6 s,
+Total Blocking Time: 80 ms,
+Largest Contentful Paint: 2.1 s,
 Cumulative Layout Shift: 0
 
 - Desktop
 
-Performance: 100
-First Contentful Paint: 0.5 s
-Time to Interactive: 0.5 s
-Speed Index: 0.5 s
-Total Blocking Time: 0
-Largest Contentful Paint: 0.5 s
+Performance: 100,
+First Contentful Paint: 0.5 s,
+Time to Interactive: 0.5 s,
+Speed Index: 0.5 s,
+Total Blocking Time: 0,
+Largest Contentful Paint: 0.5 s,
 Cumulative Layout Shift: 0.004
 
 # How to run the project
