@@ -16,7 +16,7 @@ Tailwind is used for generatting classes for the ui of the application
 
 ### Headlessui
 
-Headless Ui is used along with tailwind to create interactive components like dropdown and popups
+Headless UI is used along with tailwind to create interactive components like dropdowns and popups
 
 ### React Icons
 
@@ -24,7 +24,7 @@ React Icons is used to pick up already available icons. I have only used Remix i
 
 ### Papaparse
 
-Papa parse is being used to parse the csv file to JSON, so that we can easily work with javascript
+Papa parse is being used to parse the CSV file to JSON so that we can easily work with javascript
 
 ### Lodash
 
@@ -32,7 +32,36 @@ Lodash is being used to write clear shorthand functions, just to keep the code c
 
 ### React Querry
 
-React Querry is being used to manage caching and fetching of querries effieciently
+React Querry is being used to manage caching and fetching of querries efficiently
+
+# For performance
+
+1. Used React Querry to fetch and catch the apis.
+2. One way performance can be improved is by rendering only the visible list of a large table by using something like this - [https://www.npmjs.com/package/react-window] (https://www.npmjs.com/package/react-window). But the problem with that is as the list renders the table cell will change its width. For that, I will need to change the table to a grid layout and that will require some effort. So I have skipped this right now.
+
+### Mobile
+
+Performance: 98
+First Contentful Paint: 1.6 s
+Time to Interactive: 3.0 s
+Speed Index: 1.6 s
+Total Blocking Time: 80 ms
+Largest Contentful Paint: 2.1 s
+Cumulative Layout Shift: 0
+
+### Desktop
+
+Performance: 100
+First Contentful Paint: 0.5 s
+Time to Interactive: 0.5 s
+Speed Index: 0.5 s
+Total Blocking Time: 0
+Largest Contentful Paint: 0.5 s
+Cumulative Layout Shift: 0.004
+
+# Page Speed
+
+Used [https://pagespeed.web.dev/] (https://pagespeed.web.dev/).
 
 # How to run the project
 
