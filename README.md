@@ -37,7 +37,7 @@ React Querry is being used to manage caching and fetching of querries efficientl
 # For performance
 
 1. Used React Querry to fetch and catch the apis.
-2. One way performance can be improved is by rendering only the visible list of a large table by using something like this - [https://www.npmjs.com/package/react-window] (https://www.npmjs.com/package/react-window). But the problem with that is as the list renders the table cell will change its width. For that, I will need to change the table to a grid layout and that will require some effort. So I have skipped this right now.
+2. One way performance can be improved is by rendering only the visible list of a large table by using something like this - [https://www.npmjs.com/package/react-window]. But the problem with that is as the list renders the table cell will change its width. For that, I will need to change the table to a grid layout and that will require some effort. So I have skipped this right now.
 
 ### Mobile
 
@@ -61,7 +61,7 @@ Cumulative Layout Shift: 0.004
 
 # Page Speed
 
-Used [https://pagespeed.web.dev/] (https://pagespeed.web.dev/).
+Used [https://pagespeed.web.dev/].
 
 # How to run the project
 
