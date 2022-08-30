@@ -24,7 +24,7 @@ In the project directory, I have used these packages
 
 # For performance
 
-1. Used React Querry to fetch and catch the apis.
+1. Used React Querry to fetch and cache the apis.
 2. One way performance can be improved is by rendering only the visible list of a large table by using something like this - [https://www.npmjs.com/package/react-window]. But the problem with that is as the list renders the table cell will change its width. For that, I will need to change the table to a grid layout and that will require some effort. So I have skipped this right now.
 
 # Page Speed
